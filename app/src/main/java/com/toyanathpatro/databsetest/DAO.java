@@ -28,6 +28,7 @@ public class DAO implements IDAO {
         for(int i =0;i<data.size();i++){
             mDto = data.get(i);
             contentValues = new ContentValues();
+
             contentValues.put(DataItems.STUDENT_NAME, mDto.getName());
             contentValues.put(DataItems.STUDENT_CLASS, mDto.getStdClass());
             contentValues.put(DataItems.STUDENT_ROLL_NO, mDto.getRollNo());
