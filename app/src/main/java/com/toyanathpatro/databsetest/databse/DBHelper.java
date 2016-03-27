@@ -10,11 +10,6 @@ import android.util.Log;
  * Created by adventure on 3/20/16.
  */
 public  class DBHelper extends SQLiteOpenHelper {
-
-
-
-
-
     Context context;
 
 

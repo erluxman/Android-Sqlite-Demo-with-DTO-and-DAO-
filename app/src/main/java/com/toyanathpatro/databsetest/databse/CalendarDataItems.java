@@ -9,7 +9,7 @@ public final class CalendarDataItems {
 
     public static final String DB_NAME = "toyanath";
     public static String TABLE_NAME = "calendar";
-    public static final int DB_VERSION = 6;
+    public static final int DB_VERSION = 7;
 
     public static final String COLUMN_ID = "_dayID";
     public static final String YEAR_EN = "yearEn";
@@ -53,16 +53,16 @@ public final class CalendarDataItems {
             "CREATE TABLE "+TABLE_NAME +
                     " ( "+
                     //COLUMN_ID+" INTEGER PRIMARY KEY AUTOINCREMENT, "+
-                    YEAR_EN + TEXT_TYPE_SMALL + COMMA_SEP +
-                    MONTH_EN_ID + TEXT_TYPE_SMALL + COMMA_SEP +
+                    YEAR_EN + INTEGER_TYPE + COMMA_SEP +
+                    MONTH_EN_ID + INTEGER_TYPE + COMMA_SEP +
                     MONTH_EN + TEXT_TYPE_SMALL + COMMA_SEP +
-                    DAY + TEXT_TYPE_SMALL + COMMA_SEP +
-                    YEAR_NP + TEXT_TYPE_SMALL + COMMA_SEP +
-                    MONTH_NP_ID + TEXT_TYPE_SMALL + COMMA_SEP +
+                    DAY + INTEGER_TYPE + COMMA_SEP +
+                    YEAR_NP + INTEGER_TYPE + COMMA_SEP +
+                    MONTH_NP_ID + INTEGER_TYPE + COMMA_SEP +
                     MAHINA + TEXT_TYPE_SMALL + COMMA_SEP +
-                    GATE +TEXT_TYPE_SMALL+ COMMA_SEP +
+                    GATE +INTEGER_TYPE+ COMMA_SEP +
                     PAKSHYA +TEXT_TYPE_SMALL+ COMMA_SEP +
-                    DAY_ID +TEXT_TYPE_SMALL+ COMMA_SEP +
+                    DAY_ID +INTEGER_TYPE+ COMMA_SEP +
                     TITHI +TEXT_TYPE_SMALL+ COMMA_SEP +
                     TITHI_END +TEXT_TYPE_SMALL+ COMMA_SEP +
                     NEWARI_TITHI +TEXT_TYPE_SMALL+ COMMA_SEP +
@@ -77,8 +77,8 @@ public final class CalendarDataItems {
                     SUNSET +TEXT_TYPE_SMALL+ COMMA_SEP +
                     BHADRA +TEXT_TYPE_SMALL+ COMMA_SEP +
                     IMAGE_URL +TEXT_TYPE_SMALL+ COMMA_SEP +
-                    IS_HOLODAY + TEXT_TYPE_SMALL+ COMMA_SEP +
-                    IS_IMPORTANT +TEXT_TYPE_SMALL+ COMMA_SEP +
+                    IS_HOLODAY + INTEGER_TYPE+ COMMA_SEP +
+                    IS_IMPORTANT +INTEGER_TYPE+ COMMA_SEP +
                     DAY_INFO +TEXT_TYPE_LONG +
                     
                     " ); ";

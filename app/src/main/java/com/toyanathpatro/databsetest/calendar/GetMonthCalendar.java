@@ -58,15 +58,15 @@ public class GetMonthCalendar {
 				/*
 				System.out.print(tempNepaliDay+" ");
 				System.out.print(tempenglishDay+" ");*/
-                tempDto.setDay(tempenglishDay+"");
-                tempDto.setGate(tempNepaliDay+"");
-                tempDto.setMonthEnId(currentEngMonth+"");
-                tempDto.setMonthNpId(month+"");
+                tempDto.setDay(tempenglishDay);
+                tempDto.setGate(tempNepaliDay);
+                tempDto.setMonthEnId(currentEngMonth);
+                tempDto.setMonthNpId(month);
                 tempDto.setMahina(DateConverterToNepali.nepaliMonths[month]);
                 tempDto.setMonthEn(DateConverterToNepali.engMonths[currentEngMonth - 1]);
-                tempDto.setYearEn(currentEngYear+"");
-                tempDto.setYearNp(year+"");
-                tempDto.setDayId((week - 1)+"");
+                tempDto.setYearEn(currentEngYear);
+                tempDto.setYearNp(year);
+                tempDto.setDayId((week - 1));
                 tempenglishDay = 1;
 
                 /*if(currentEngMonth==11){
@@ -92,15 +92,15 @@ public class GetMonthCalendar {
             } else {/*
 				System.out.print(tempNepaliDay+" ");
 				System.out.print(tempenglishDay+" ");*/
-                tempDto.setDay(tempenglishDay+"");
-                tempDto.setGate(tempNepaliDay+"");
-                tempDto.setMonthEnId(currentEngMonth+"");
-                tempDto.setMonthNpId(month+"");
+                tempDto.setDay(tempenglishDay);
+                tempDto.setGate(tempNepaliDay);
+                tempDto.setMonthEnId(currentEngMonth);
+                tempDto.setMonthNpId(month);
                 tempDto.setMahina(DateConverterToNepali.nepaliMonths[month]);
                 tempDto.setMonthEn(DateConverterToNepali.engMonths[currentEngMonth - 1]);
-                tempDto.setYearEn(currentEngYear+"");
-                tempDto.setYearNp(year+"");
-                tempDto.setDayId((week - 1)+"");
+                tempDto.setYearEn(currentEngYear);
+                tempDto.setYearNp(year);
+                tempDto.setDayId((week - 1));
 
 
                 tempenglishDay++;

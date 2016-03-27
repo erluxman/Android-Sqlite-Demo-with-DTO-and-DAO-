@@ -108,16 +108,16 @@ public class CalendarDAO implements ICalendarDAO {
             mCalendarDto=new CalendarDto();
 
 
-            mCalendarDto.setYearEn(mCursor.getString(yearEnIndex));
-            mCalendarDto.setMonthEnId(mCursor.getString(monthEnIdIndex));
+            mCalendarDto.setYearEn(mCursor.getInt(yearEnIndex));
+            mCalendarDto.setMonthEnId(mCursor.getInt(monthEnIdIndex));
             mCalendarDto.setMonthEn(mCursor.getString(monthEnIndex));
-            mCalendarDto.setDay(mCursor.getString(dateIndex));
-            mCalendarDto.setYearNp(mCursor.getString(yearNpIndex));
-            mCalendarDto.setMonthNpId(mCursor.getString(monthNpIdIndex));
+            mCalendarDto.setDay(mCursor.getInt(dateIndex));
+            mCalendarDto.setYearNp(mCursor.getInt(yearNpIndex));
+            mCalendarDto.setMonthNpId(mCursor.getInt(monthNpIdIndex));
             mCalendarDto.setMahina(mCursor.getString(mahinaIndex));
-            mCalendarDto.setGate(mCursor.getString(gateIndex));
+            mCalendarDto.setGate(mCursor.getInt(gateIndex));
             mCalendarDto.setPakshya(mCursor.getString(pakshyaIndex));
-            mCalendarDto.setDayId(mCursor.getString(dayIDIndex));
+            mCalendarDto.setDayId(mCursor.getInt(dayIDIndex));
             mCalendarDto.setTithi(mCursor.getString(tithiIndex));
             mCalendarDto.setTithiEnd(mCursor.getString(tithiEndIndex));
             mCalendarDto.setNewariTithi(mCursor.getString(newariTithiIndex));
@@ -132,8 +132,8 @@ public class CalendarDAO implements ICalendarDAO {
             mCalendarDto.setSunset(mCursor.getString(sunsetIndex));
             mCalendarDto.setBhadra(mCursor.getString(bhadraIndex));
             mCalendarDto.setImageUrl(mCursor.getString(imageUrlIndex));
-            mCalendarDto.setIsHoliday(mCursor.getString(isHoliDayIndex));
-            mCalendarDto.setIsImportant(mCursor.getString(isImportantIndex));
+            mCalendarDto.setIsHoliday(mCursor.getInt(isHoliDayIndex));
+            mCalendarDto.setIsImportant(mCursor.getInt(isImportantIndex));
             mCalendarDto.setDayInfo(mCursor.getString(dayInfoIndex));
             data.add(mCalendarDto);
         }
@@ -218,16 +218,16 @@ public class CalendarDAO implements ICalendarDAO {
             // add column
 
 
-            mCalendarDto.setYearEn(mCursor.getString(yearEnIndex));
-            mCalendarDto.setMonthEnId(mCursor.getString(monthEnIdIndex));
+            mCalendarDto.setYearEn(mCursor.getInt(yearEnIndex));
+            mCalendarDto.setMonthEnId(mCursor.getInt(monthEnIdIndex));
             mCalendarDto.setMonthEn(mCursor.getString(monthEnIndex));
-            mCalendarDto.setDay(mCursor.getString(dateIndex));
-            mCalendarDto.setYearNp(mCursor.getString(yearNpIndex));
-            mCalendarDto.setMonthNpId(mCursor.getString(monthNpIdIndex));
+            mCalendarDto.setDay(mCursor.getInt(dateIndex));
+            mCalendarDto.setYearNp(mCursor.getInt(yearNpIndex));
+            mCalendarDto.setMonthNpId(mCursor.getInt(monthNpIdIndex));
             mCalendarDto.setMahina(mCursor.getString(mahinaIndex));
-            mCalendarDto.setGate(mCursor.getString(gateIndex));
+            mCalendarDto.setGate(mCursor.getInt(gateIndex));
             mCalendarDto.setPakshya(mCursor.getString(pakshyaIndex));
-            mCalendarDto.setDayId(mCursor.getString(dayIDIndex));
+            mCalendarDto.setDayId(mCursor.getInt(dayIDIndex));
             mCalendarDto.setTithi(mCursor.getString(tithiIndex));
             mCalendarDto.setTithiEnd(mCursor.getString(tithiEndIndex));
             mCalendarDto.setNewariTithi(mCursor.getString(newariTithiIndex));
@@ -242,8 +242,8 @@ public class CalendarDAO implements ICalendarDAO {
             mCalendarDto.setSunset(mCursor.getString(sunsetIndex));
             mCalendarDto.setBhadra(mCursor.getString(bhadraIndex));
             mCalendarDto.setImageUrl(mCursor.getString(imageUrlIndex));
-            mCalendarDto.setIsHoliday(mCursor.getString(isHoliDayIndex));
-            mCalendarDto.setIsImportant(mCursor.getString(isImportantIndex));
+            mCalendarDto.setIsHoliday(mCursor.getInt(isHoliDayIndex));
+            mCalendarDto.setIsImportant(mCursor.getInt(isImportantIndex));
             mCalendarDto.setDayInfo(mCursor.getString(dayInfoIndex));
             data.add(mCalendarDto);
         }
@@ -326,16 +326,16 @@ public class CalendarDAO implements ICalendarDAO {
             // add column
 
 
-            mCalendarDto.setYearEn(mCursor.getString(yearEnIndex));
-            mCalendarDto.setMonthEnId(mCursor.getString(monthEnIdIndex));
+            mCalendarDto.setYearEn(mCursor.getInt(yearEnIndex));
+            mCalendarDto.setMonthEnId(mCursor.getInt(monthEnIdIndex));
             mCalendarDto.setMonthEn(mCursor.getString(monthEnIndex));
-            mCalendarDto.setDay(mCursor.getString(dateIndex));
-            mCalendarDto.setYearNp(mCursor.getString(yearNpIndex));
-            mCalendarDto.setMonthNpId(mCursor.getString(monthNpIdIndex));
+            mCalendarDto.setDay(mCursor.getInt(dateIndex));
+            mCalendarDto.setYearNp(mCursor.getInt(yearNpIndex));
+            mCalendarDto.setMonthNpId(mCursor.getInt(monthNpIdIndex));
             mCalendarDto.setMahina(mCursor.getString(mahinaIndex));
-            mCalendarDto.setGate(mCursor.getString(gateIndex));
+            mCalendarDto.setGate(mCursor.getInt(gateIndex));
             mCalendarDto.setPakshya(mCursor.getString(pakshyaIndex));
-            mCalendarDto.setDayId(mCursor.getString(dayIDIndex));
+            mCalendarDto.setDayId(mCursor.getInt(dayIDIndex));
             mCalendarDto.setTithi(mCursor.getString(tithiIndex));
             mCalendarDto.setTithiEnd(mCursor.getString(tithiEndIndex));
             mCalendarDto.setNewariTithi(mCursor.getString(newariTithiIndex));
@@ -350,8 +350,8 @@ public class CalendarDAO implements ICalendarDAO {
             mCalendarDto.setSunset(mCursor.getString(sunsetIndex));
             mCalendarDto.setBhadra(mCursor.getString(bhadraIndex));
             mCalendarDto.setImageUrl(mCursor.getString(imageUrlIndex));
-            mCalendarDto.setIsHoliday(mCursor.getString(isHoliDayIndex));
-            mCalendarDto.setIsImportant(mCursor.getString(isImportantIndex));
+            mCalendarDto.setIsHoliday(mCursor.getInt(isHoliDayIndex));
+            mCalendarDto.setIsImportant(mCursor.getInt(isImportantIndex));
             mCalendarDto.setDayInfo(mCursor.getString(dayInfoIndex));
             break;
         }

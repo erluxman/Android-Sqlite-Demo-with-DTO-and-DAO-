@@ -17,7 +17,7 @@ public class Test {
         CalendarDto temp;
         for (int i=0;i<data.size();i++){
             temp = data.get(i);
-            System.out.println(temp.getGate()+"  ,"+temp.getDay()+"  ,"+temp.getMonthEnId()+"   "+temp.getMonthNpId()+"   "+temp.getMahina()+"   "+temp.getMonthEn() + "  "+temp.getYearNp() +"  "+temp.getYearEn()+ "    "+DateConverterToEnglish.getDayName(Integer.parseInt(temp.getDayId())));
+            System.out.println(temp.getGate()+"  ,"+temp.getDay()+"  ,"+temp.getMonthEnId()+"   "+temp.getMonthNpId()+"   "+temp.getMahina()+"   "+temp.getMonthEn() + "  "+temp.getYearNp() +"  "+temp.getYearEn()+ "    "+DateConverterToEnglish.getDayName(temp.getDayId()));
         }
 
        /* String timeStamp = new SimpleDateFormat("yyyyMMdd_HHmmss").format(Calendar.getInstance().getTime());

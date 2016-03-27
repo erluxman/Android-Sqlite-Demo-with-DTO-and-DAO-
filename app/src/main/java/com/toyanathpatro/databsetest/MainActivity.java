@@ -41,7 +41,7 @@ public class MainActivity extends AppCompatActivity {
         for (int i =0;i< mdata.size();i++){
             CalendarDto  temp = new CalendarDto();
             temp = mdata.get(i);
-            Log.i("dbTest",temp.getGate()+"  ,"+temp.getDay()+"  ,"+temp.getMonthEnId()+"   "+temp.getMonthNpId()+"   "+temp.getMahina()+"   "+temp.getMonthEn() + "  "+temp.getYearNp() +"  "+temp.getYearEn()+ "    "+ DateConverterToEnglish.getDayName(Integer.parseInt(temp.getDayId())));
+            Log.i("dbTest",temp.getGate()+"  ,"+temp.getDay()+"  ,"+temp.getMonthEnId()+"   "+temp.getMonthNpId()+"   "+temp.getMahina()+"   "+temp.getMonthEn() + "  "+temp.getYearNp() +"  "+temp.getYearEn()+ "    "+ DateConverterToEnglish.getDayName(temp.getDayId()));
         }
         /*IDAO mDao = new DAO(this);
         ArrayList <StudentDTO > data = new ArrayList<>();
