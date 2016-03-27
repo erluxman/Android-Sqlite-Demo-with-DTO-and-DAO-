@@ -26,7 +26,13 @@ public class Test {
         year = Integer.parseInt(timeStamp.substring(0,4));
         month = Integer.parseInt(timeStamp.substring(4,6));
         day = Integer.parseInt(timeStamp.substring(6,8));
-        int [] currnetNepaliDate = DateConverterToNepali.getNepaliDateArray(year,month,day);
+        int [] currnetNepaliDate = DateConverte
+
+
+
+
+
+        rToNepali.getNepaliDateArray(year,month,day);
 
         System.out.println(year + " "+month + " "+day);
         System.out.println(currnetNepaliDate[0] + " "+currnetNepaliDate[1] + " "+currnetNepaliDate[2]);
